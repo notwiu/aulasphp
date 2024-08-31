@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trapezio</title>
+</head>
+<body>
+    <h1>Área do Trapezio</h1>
+    <form action="area.php" method="post">
+        <label for="basemaior">Base maior: </label>
+        <input type="number" id="basemaior" name="basemaior" required>
+        <br>
+        <label for="basemenor">Base menor: </label>
+        <input type="number" id="basemenor" name="basemenor" step="0.1" required>
+        <br>
+        <label for="altura">Altura: </label>
+        <input type="number" id="altura" name="altura" step="0.1" required>
+        <br>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+</html>
